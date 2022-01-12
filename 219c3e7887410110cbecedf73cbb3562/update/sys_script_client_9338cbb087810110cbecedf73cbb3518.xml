@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Demo onLoad Example Client</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   alert('Thank you for loading my Demo form. When you close this, you will be able to interact with the form')
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 11:20:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9338cbb087810110cbecedf73cbb3518</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Demo onLoad Example Client</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo App" source="x_750261_demo_app">219c3e7887410110cbecedf73cbb3562</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo App">219c3e7887410110cbecedf73cbb3562</sys_scope>
+        <sys_update_name>sys_script_client_9338cbb087810110cbecedf73cbb3518</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 11:23:56</sys_updated_on>
+        <table>x_750261_demo_app_demoapp</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
